@@ -1,0 +1,5 @@
+flet==0.22.*
+kindwise-api-client
+python-dotenv
+
+
