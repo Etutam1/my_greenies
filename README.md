@@ -1,4 +1,4 @@
-# A plant watering/gardening/fertilize tracker Flet app
+# A plant care Flet app
 
 To run the app:
 
