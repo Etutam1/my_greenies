@@ -1,6 +1,4 @@
-# A my_greenies Flet app
-
-An example of a minimal Flet app.
+# A plant watering/gardening/fertilize tracker Flet app
 
 To run the app:
 
