@@ -1,5 +1,5 @@
 import flet as ft
-import request
+from control import request
 
 def main(page: ft.Page):
     page.add(ft.SafeArea(ft.Text("Hello, Flet!")))

@@ -8,8 +8,8 @@ def identify_plant(img):
     with open(img, 'rb') as file:
         images = [base64.b64encode(file.read()).decode('ascii')]
 
-    response = requests.post(
-        'https://api.plant.id/v3/identification',
+    response = requests.post(timeout=10,
+        url='https://api.plant.id/v3/identification',
         params={'details': 'url,common_names'},
         headers={'Api-Key': os.getenv('API_KEY')},
         json={'images': images},
